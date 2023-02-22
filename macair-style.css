@@ -1,0 +1,128 @@
+body {
+    background-color: grey;  
+}
+.container {
+    max-width: 100%;
+    margin: 0px auto;
+}
+#header {
+    background-color: #101010;
+}
+.others li{
+    display: block;
+    float: left;
+    letter-spacing: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo img {
+    max-width: 90px;
+    height: auto;    
+}
+#logo-a img {
+    max-width: 45px;
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 65%;
+}
+.others {
+    float: 1;
+    margin-top: 15px;
+}
+#main-menu li a {
+    
+    display: block;
+    font-size: 15px;
+    line-height: 21px;
+    overflow: hidden;
+    color: white;
+    display: block;
+    padding: 18px 20px;
+}
+
+.mySlides {
+    border-radius: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.slider-product img {
+    max-width: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    justify-content: space-between;
+    justify-items: center;
+}
+.menu-product li{
+    display:block;
+    float: left;
+    color: white;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+.menu-product li a{
+    display: block;
+    float: left;
+    padding-top: 20px;
+    margin-left: auto;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.choose-box {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #323232;
+    text-align: center;
+    padding-bottom: 15px;
+    box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.5);
+    transition: 0.3;
+    
+}
+
+.choose-box:hover {
+    box-shadow: 4px 12px 12px 4px rgba(0,0,0,0.2);
+}
+.choose-box span {
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+.bottom {
+    margin-top: 50px;
+    background-color: #101010;
+    display: flex;
+}
+
+nav .info-bottom-img img {
+    max-width: 70px;
+    margin-left: 40px;
+}
+
+.info-bottom-lh {
+    color: white;
+    margin: 20px;
+}
+
+.info-bottom-lh li {
+    float: left;
+    display: block;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}

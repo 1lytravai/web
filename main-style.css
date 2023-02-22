@@ -1,0 +1,166 @@
+body {
+    background-color: grey;  
+}
+.container {
+    max-width: 100%;
+    margin: 0px auto;
+}
+#header {
+    background-color: #101010;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo img {
+    max-width: 90px;
+    height: auto;    
+}
+#logo-a img {
+    max-width: 45px;
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 65%;
+}
+#main-menu li a {
+    display: block;
+    font-size: 15px;
+    line-height: 21px;
+    overflow: hidden;
+    color: white;
+    display: block;
+    padding: 18px 20px;
+}
+
+.others {
+    float: 1;
+    margin-top: 15px;
+}
+.home {
+    background-color: #323232;
+    display: block;
+    overflow: hidden;
+
+}
+.n-home {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+    text-align: center;
+}
+.n-home li {
+    display: block;
+    padding: 10px;
+}
+.others li{
+    display: block;
+    float: left;
+    letter-spacing: 30px;
+}
+
+.choose-box {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #323232;
+    text-align: center;
+    padding-bottom: 15px;
+    box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.5);
+    transition: 0.3;
+}
+
+.choose-box:hover {
+    box-shadow: 4px 12px 12px 4px rgba(0,0,0,0.2);
+}
+.choose-box span {
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+.slider-product img {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider-product {
+    background-color: grey;
+    padding: 20px;
+}
+.slider-product-iphones {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.slider-product-iphone:hover img {
+    transform: translateY(-10px);
+}
+.slider-product-iphone img {
+    width: 100%;
+}
+.slider-product-iphone {
+    width: 22%;
+    background-color: #323232;
+    padding: 60px 20px 15px;
+    border-radius: 10px;
+}
+.slider-product-iphone:hover {
+    box-shadow: 4px 12px 12px 4px;
+    background-color: #323232;
+    
+}
+.slider-product-iphone-intro li {
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.slider-product-iphone-intro li:nth-child(3) {
+    text-decoration: line-through;
+    font-size: small;
+}
+
+/*--------slider-product-----*/
+.slider-product-container {
+    position: relative;
+}
+.slider-product-container-btn {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottom {
+    margin-top: 50px;
+    background-color: #101010;
+    display: flex;
+}
+
+nav .info-bottom-img img {
+    max-width: 70px;
+    margin-left: 40px;
+}
+
+.info-bottom-lh {
+    color: white;
+    margin: 20px;
+}
+
+.info-bottom-lh li {
+    float: left;
+    display: block;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}

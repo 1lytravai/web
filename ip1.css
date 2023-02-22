@@ -1,0 +1,122 @@
+body {
+    background-color: grey;  
+}
+.container {
+    max-width: 100%;
+    margin: 0px auto;
+}
+.others li{
+    display: block;
+    float: left;
+    letter-spacing: 30px;
+}
+.others {
+    float: 1;
+    margin-top: 15px;
+}
+#header {
+    background-color: #101010;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo img {
+    max-width: 90px;
+    height: auto;    
+}
+#logo-a img {
+    max-width: 45px;
+}
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 65%;
+}
+#main-menu li a {
+    
+    display: block;
+    font-size: 15px;
+    line-height: 21px;
+    overflow: hidden;
+    color: white;
+    display: block;
+    padding: 18px 20px;
+}
+
+.slider-pro {
+    margin-top: 50px;
+    max-width: 45%;
+    justify-items: center;
+    text-align: center;
+    padding: auto;
+}
+
+.slider-pro .w3-content img{
+    border-radius: 30px;
+    
+    text-align: center;
+    display: flex;
+}
+
+.ifo-ip1 {
+ text-align: center;
+ font-weight: bold;
+ color: white;
+ font-size: large;
+ margin-top: 30px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info-product {
+    margin-top: 30px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.info-product h5{
+    text-decoration: line-through;
+}
+.choose-dl button {
+    border-radius: 10px;
+    background-color: #333 ;
+    color: white;
+    padding: 5px;
+}
+nav .in {
+    background-color: #3a3636;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.choose-buy button{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0071E3;
+    outline-color: #0071E3;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+    border: none;
+}
+.para p {
+    text-align: center;
+    font-weight: bold;
+}
+.para {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #323232;
+    text-align: center;
+    padding-bottom: 15px;
+    box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.5);
+    transition: 0.3;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:left;
+}
