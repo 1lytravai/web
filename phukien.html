@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=dev-width,  initial-scale=1.0">
+    <title>Apple Watch chính hãng</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="mac-style.css" />
+
+</head>
+<body>
+
+    <div id="header">
+        <nav class="container">
+            <div class="logomenu">
+                <a href="main.html" id="logo">
+                    <img src="logoweb.png">
+                </a>
+                <a href="main.html" id="logo-a">
+                    <img src="logo_apple.png">
+                </a>
+            </div>
+            <ul id="main-menu">
+                <li><a href="iphone.html">iPhone</a></li>
+                <li><a href="mac.html">Mac</a></li>
+                <li><a href="ipad.html">iPad</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="sound.html">Âm thanh</a></li>
+                <li><a href="phukien.html">Phụ kiện</a></li>
+                <li><a href="#">TekZone</a></li>
+                <li><a href="topcare.html">TekCare</a></li>
+            </ul>
+            <div class="others">
+                <li><i class="fas fa-search" style="color: white"></i></li>
+                <li><i class="fas fa-shopping-bag" style="color: white"></i></li>
+            </div>
+        </nav>
+    </div>
+    <div class="contain">
+        <div class="slider-product">
+            <a href="">
+                <img src="https://cdn.tgdd.vn/Category/7077/awatch-120x25.png">
+            </a>       
+        </div>
+    
+        <div class="w3-content w3-section">
+            <img class="mySlides" src="https://cdn.tgdd.vn/2022/08/banner/2400-600-1920x480-3.png" style="width:100%">
+            <img class="mySlides" src="https://cdn.tgdd.vn/2022/08/banner/2400-600-1920x480-2.png" style="width:100%">
+          </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); 
+      }
+      </script>
+      
+    <nav>
+        <div class="menu-product">
+            <a href="phukien.html"><li style="color: #323232">Tất cả</li></a>
+            <a href="phukien.html"><li>Phụ kiện Iphone</li></a>
+            <a href="phukien.html"><li>Phụ kiện Mac</li></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="choose-box">
+                    <a href="">
+                        <div class="cateIphone">
+                            <img src="https://cdn.tgdd.vn/Products/Images/57/266084/s16/pin-apple-magsafe-battery-pack-211221-090310-650x650.png" alt width="234" height="234">
+                        </div>
+                        <span>
+                            Pin Dự Phòng MagSafe
+                        <br>
+                        <br>
+                        <sub>đ</sub>
+                        </span>
+                    </a>
+            
+                </div>
+            </div>   
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="choose-box">
+                    <a href="">
+                        <div class="cateIphone">
+                            <img src="https://cdn.tgdd.vn/Products/Images/9499/284275/s16/adapter-sac-apple-type-c-35w-thumb-1-650x650.png" alt width="234" height="234">
+                        </div>
+                        <span>
+                            Adaptẻ sạc Apple 2 cổng USB-C 35W
+                        <br>
+                        <br>
+                        <sub>đ</sub>
+                        </span>
+                    </a>
+            
+                </div>
+            </div>   
+        </div>
+    </div>
+
+</body>
+</html>
